@@ -1,14 +1,90 @@
-$myFont: Verdana;
-$secdFont: Arial;
-$baseFont: 16px;
-$titleFont: 60px;
+$myFont: verdana;
+$myFontSz: 30px;
 
 * {
     padding: 0;
+    margin: 0;}
+
+div{
     margin: 0;
+    padding: 0;
 }
 
-.header-title { 
-        font-family: Verdana;
-        font-size: 10px;
+.header {
+    width: 100%;
+    font-size: 28px;
+    color: #FFF;
+    background: #000;
+    padding: 20px;
+    text-align: center;
+    box-sizing: border-box;
+    position: fixed;
+    top: 0;
 }
+
+.container{
+    max-width: 1200px;
+    margin: 4px auto;
+    padding: 0;
+  }
+
+  
+  
+  .banner{
+    width: 100%;
+    display: inline-block;
+    padding: 140px 0;
+    margin: 72px 0 0 0;
+    text-align: center;
+    background-color: #CCC;
+    min-height: 300px;
+  }
+  
+  .col1{
+    display: inline-block;
+    float: left;
+    width: 50%;
+    text-align: center;
+    padding: 120px 0;
+    margin: 0px;
+    background-color: #777;
+    min-height: 300px;
+
+    
+  }
+  
+  .col2{
+    display: inline-block;
+    max-width: 1200px;
+
+    float: left;
+    width: 50%;
+    text-align: center;
+    padding: 120px 0;
+    background-color: #555;
+    min-height: 300px;
+
+  }
+
+.footer {
+    width: 100%;
+    font-size: 28px;
+    color: #FFF;
+    background: #000;
+    text-align: center;
+    bottom: 0;
+ }
+/* Collapse to full width column */
+
+@media only screen and (max-width: 660px){
+
+    .TwoCols {
+        .col1{
+            width: 100%;
+            }
+        .col2{
+            width: 100%;
+        }
+    }
+}
+
