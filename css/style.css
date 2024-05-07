@@ -8,25 +8,36 @@ div {
 
 .header {
   width: 100%;
-  font-size: 28px;
-  color: #FFF;
-  background: #000;
+  font-size: 30px;
+  font-family: "Press Start 2P";
+  color: #a97aff;
+  background: #333;
   padding: 20px;
   text-align: center;
   box-sizing: border-box;
   position: fixed;
   top: 0; }
 
+/* Conatainer */
 .container {
+  width: 100%; }
+  .container:after {
+    content: "";
+    display: table;
+    clear: both; }
+
+/* Main */
+.main {
   max-width: 1200px;
   margin: 4px auto;
   padding: 0; }
 
+/* margin: top left bottom, right */
 .banner {
   width: 100%;
   display: inline-block;
   padding: 140px 0;
-  margin: 72px 0 0 0;
+  margin: 72px 0 2px 0;
   text-align: center;
   background-color: #CCC;
   min-height: 300px; }
@@ -34,32 +45,33 @@ div {
 .col1 {
   display: inline-block;
   float: left;
-  width: 50%;
+  width: calc(50% - 2px);
   text-align: center;
   padding: 120px 0;
-  margin: 0px;
-  background-color: #777;
+  margin: 2px 2px 2px 0;
+  background-color: #CCC;
   min-height: 300px; }
 
 .col2 {
   display: inline-block;
   max-width: 1200px;
   float: left;
-  width: 50%;
+  width: calc(50% - 2px);
+  margin: 2px 0 2px 2px;
   text-align: center;
   padding: 120px 0;
-  background-color: #555;
+  background-color: #CCC;
   min-height: 300px; }
 
 .footer {
   width: 100%;
   font-size: 28px;
   color: #FFF;
-  background: #000;
+  background: #333;
   text-align: center;
   bottom: 0; }
 
-/* Collapse to full width column */
+/* @media */
 @media only screen and (max-width: 660px) {
   .TwoCols .col1 {
     width: 100%; }
