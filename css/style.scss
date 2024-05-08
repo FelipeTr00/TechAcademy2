@@ -105,18 +105,21 @@ footer{
     padding: 50px 0;
 }
 .container-footer{
-    max-width: 1400px;
-    padding: 0 4%;
+    padding: 0 10px;
     margin: auto;
+    text-align: center;
+    max-width: 1200px;
 }
 .row-footer{
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .footer-col{
     width: 25%;
-    padding: 0 15px;
+    padding: 0 10px;
+    box-sizing: border-box;
 }
 .footer-col h4{
     font-size: 22px;
@@ -145,63 +148,15 @@ footer{
     color: #cecdcd;
     padding-left: 10px;
 }
-.footer-col .medias-socias{
-    margin-top: 30px;
-}
-.footer-col .medias-socias a{
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    height: 40px;
-    width: 40px;
-    margin: 0 10px 10px 0;
-    text-decoration: none;
-    border-radius: 50%;
-    color: white;
-    border: 1px solid white;
-    transition: all 0.5s ease;
-}
-.footer-col .medias-socias a i{
-    font-size: 20px;
-}
 
-.footer-col .medias-socias a:hover{
-    color: #777;
-    background-color: white;
-}
-.footer-col .form-sub input{
-    width: 100%;
-    padding: 10px;
-    font-size: 15px;
-    outline: none;
-    border: 1px solid white;
-    color: white;
-    background-color: #777;
-}
-.footer-col .form-sub input::placeholder{
-    color: white;
-}
-.footer-col .form-sub button{
-    width: 100%;
-    margin-top: 10px;
-    padding: 10px; 
-    font-size: 17px;
-    outline: none;
-    border: none;
-    cursor: pointer;
-    color: #777;
-    border-radius: 3px;
-    font-weight: bold;
-    background-color: white;        
-}
 /* Responsivo */
 @media (max-width: 800px) {
     .footer-col{
-        width: 50%;
+        width: 25%;
         margin-bottom: 30px;
     }
 }
-@media (max-width:600px) {
+@media (max-width:800px) {
     .footer-col{
         width: 100%;
     }
