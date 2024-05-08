@@ -107,13 +107,14 @@ footer{
 .container-footer{
     padding: 0 10px;
     margin: auto;
-    text-align: center;
+    text-align: justify;
     max-width: 1200px;
 }
 .row-footer{
     display: flex;
+	width: 118%;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: left;
 }
 
 .footer-col{
@@ -143,10 +144,15 @@ footer{
     font-weight: 300;
     display: block;
     transition: all 0.3s ease;
+	text-align: left;
 }
 .footer-col ul li a:hover{
     color: #cecdcd;
     padding-left: 10px;
+}
+
+.footer-image {
+	width: 110px;
 }
 
 /* Responsivo */
@@ -160,4 +166,9 @@ footer{
     .footer-col{
         width: 100%;
     }
+}
+
+.copyright {
+	color: white;
+	text-align: center;
 }
