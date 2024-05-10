@@ -17,3 +17,6 @@
 #### SCSS (SASS) <i class="fa-brands fa-sass"></i>
 #### JS <i class="fa-brands fa-square-js"></i>
 #### PHP     <i class="fa-brands fa-php"></i>
+
+
+<script src="https://kit.fontawesome.com/e8927ca629.js" crossorigin="anonymous"></script>
