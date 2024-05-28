@@ -12,12 +12,16 @@ div {
   font-size: 30px;
   font-family: "Press Start 2P";
   color: #a97aff;
-  background: #333;
+  background: #fff;
   padding: 20px;
   text-align: center;
   box-sizing: border-box;
   position: fixed;
   top: 0; }
+
+.header-logo {
+  width: 200px;
+  height: auto; }
 
 /* Conatainer */
 .container {
