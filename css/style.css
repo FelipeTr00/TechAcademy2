@@ -67,7 +67,7 @@
 
 .main {
   max-width: 1200px;
-  margin: 100px auto 4px;
+  margin: 100px auto 0;
   padding: 0; }
 
 .banner {
@@ -81,11 +81,24 @@
   min-height: 180px;
   border-radius: 8px;
   box-shadow: 0 2px 2px #CCC; }
+  .banner a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: inherit;
+    text-decoration: none;
+    overflow: hidden; }
   .banner .banner-image {
+    transform: scale(1.03);
     width: 100%;
     height: 100%;
     border-radius: 8px;
-    object-fit: cover; }
+    object-fit: cover;
+    padding: 0;
+    transition: transform 0.3s ease; }
+    .banner .banner-image:hover {
+      transform: scale(1.08); }
 
 .col1, .col2 {
   font-family: Arial, Helvetica, sans-serif;
@@ -95,14 +108,16 @@
   padding: 5px 0;
   background-color: #FFF;
   border-radius: 8px;
-  box-shadow: 0 2px 4px #CCC; }
+  overflow: hidden;
+  box-shadow: 0 2px 4px #CCC;
+  transition: transform 0.3s ease; }
+  .col1:hover, .col2:hover {
+    transform: scale(1.05); }
   .col1.col1, .col2.col1 {
-    float: left;
-    margin: 2px 2px 2px 0; }
+    float: left; }
   .col1.col2, .col2.col2 {
-    float: left;
-    margin: 2px 0 2px 2px; }
-  .col1 .col1-image, .col2 .col1-image {
+    float: left; }
+  .col1 .col-image, .col2 .col-image {
     max-width: 100%;
     max-height: 100%;
     border-radius: 8px;
@@ -124,11 +139,13 @@
   padding: 5px;
   font-size: 24px;
   color: black; }
+  .title2:hover {
+    color: #ca490d; }
 
 @media only screen and (max-width: 800px) {
   .TwoCols .col1, .TwoCols .col2 {
-    width: 100%;
-    height: 400px; } }
+    width: 100%; } }
+/* Footer */
 footer {
   background-color: #6e6e6e;
   padding: 50px 0; }
@@ -168,7 +185,7 @@ footer {
           transition: all 0.3s ease;
           text-align: left; }
           footer .footer-col ul li a:hover {
-            color: #cecdcd;
+            color: #d9d9d9;
             padding-left: 10px; }
   footer .footer-image {
     width: 110px; }
@@ -178,7 +195,9 @@ footer {
     font-size: 20px; }
   @media (max-width: 800px) {
     footer .footer-col {
-      width: 100%;
+      width: 50%;
       margin-bottom: 30px; } }
+
+/* Google Fonts */
 
 /*# sourceMappingURL=style.css.map */
