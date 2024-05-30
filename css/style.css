@@ -55,12 +55,13 @@
         right: 10px; } }
   .header .header-logo {
     float: left;
-    width: 200px;
+    width: 220px;
     height: auto; }
 
 .container {
   width: 100%;
-  margin-top: 40px; }
+  margin-top: 40px;
+  padding: 0 0 20px 0; }
   .container:after {
     content: "";
     display: table;
@@ -106,18 +107,24 @@
     .banner .banner-image:hover {
       transform: scale(1.08); }
 
+.TwoCols {
+  padding: 10px 0 10px 0; }
+  .TwoCols p {
+    font-family: Verdana, Tahoma, sans-serif; }
+
 .col1, .col2 {
   font-family: Arial, Helvetica, sans-serif;
   display: inline-block;
   justify-content: center;
   width: calc(50% - 2px);
   text-align: center;
-  padding: 5px 0;
+  padding: 5px 5px 5px 5px;
   background-color: #FFF;
   border-radius: 8px;
   overflow: hidden;
   box-shadow: 0 2px 4px #CCC;
-  transition: transform 0.3s ease; }
+  transition: transform 0.3s ease;
+  margin-bottom: 20px; }
   .col1:hover, .col2:hover {
     transform: scale(1.05); }
   .col1.col1, .col2.col1 {

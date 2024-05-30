@@ -76,7 +76,7 @@ $text_color: black;
         }
     } .header-logo {
         float: left;
-        width: 200px;
+        width: 220px;
         height: auto;
     }
 }
@@ -84,6 +84,7 @@ $text_color: black;
 .container {
     width: 100%;
     margin-top: 40px;
+    padding: 0 0 20px 0;
     &:after {
         content: "";
         display: table;
@@ -139,18 +140,26 @@ $text_color: black;
     }
 }
 
+.TwoCols {
+    padding: 10px 0 10px 0;
+    p {
+        font-family: Verdana, Tahoma, sans-serif;
+    }
+}
+
 .col1, .col2 {
     font-family: Arial, Helvetica, sans-serif;
     display: inline-block;
     justify-content: center;
     width: calc(50% - 2px);
     text-align: center;
-    padding: 5px 0;
+    padding: 5px 5px 5px 5px;
     background-color: $color_1;
     border-radius: 8px;
     overflow: hidden;
     box-shadow: 0 2px 4px $background-color_1;
     transition: transform 0.3s ease;
+    margin-bottom: 20px;
     
         &:hover {
         transform: scale(1.05);
