@@ -162,13 +162,15 @@ footer {
   margin-bottom: 20px;
   font-weight: 500;
   position: relative;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  font-family: Arial, Helvetica, sans-serif; }
 
 .footer-col ul {
   list-style: none; }
 
 .footer-col ul li {
-  margin: 10px 0; }
+  margin: 10px 0;
+  font-family: Arial, Helvetica, sans-serif; }
 
 .footer-col ul li a {
   font-size: 16px;
