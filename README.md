@@ -17,6 +17,6 @@ https://felipetr00.github.io/TechAcademy2
 ---
 ### TECNOLOGIAS
 
-[![My Skills](https://skillicons.dev/icons?i=html,scss,js,php&theme=light)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=html,css,scss,js,php&theme=light)](https://skillicons.dev)
 
 ---
