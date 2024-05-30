@@ -31,7 +31,7 @@
         .header-nav ul a:hover {
           color: #ca490d;
           font-weight: bold; }
-    @media (max-width: 800px) {
+    @media (max-width: 840px) {
       .header-nav ul {
         display: none;
         flex-direction: column;
@@ -44,7 +44,7 @@
   .header .menu-icon {
     display: none;
     color: #FFF; }
-    @media (max-width: 800px) {
+    @media (max-width: 840px) {
       .header .menu-icon {
         display: block;
         cursor: pointer;
@@ -154,7 +154,7 @@
   .title2:hover {
     color: #ca490d; }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 840px) {
   .TwoCols .col1, .TwoCols .col2 {
     width: 100%; } }
 /* Footer */
@@ -205,7 +205,7 @@ footer {
     color: white;
     text-align: center;
     font-size: 20px; }
-  @media (max-width: 800px) {
+  @media (max-width: 840px) {
     footer .footer-col {
       width: 50%;
       margin-bottom: 30px; } }
