@@ -70,6 +70,9 @@
   max-width: 1200px;
   margin: 100px auto 0;
   padding: 0; }
+  .main h1 {
+    display: flex;
+    justify-content: center; }
 
 .banner {
   position: relative;
@@ -153,6 +156,10 @@
   color: black; }
   .title2:hover {
     color: #ca490d; }
+
+.game-iframe {
+  display: flex;
+  justify-content: center; }
 
 @media only screen and (max-width: 840px) {
   .TwoCols .col1, .TwoCols .col2 {

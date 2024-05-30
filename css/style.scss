@@ -95,6 +95,11 @@ $text_color: black;
     max-width: 1200px;
     margin: 100px auto 0;
     padding: 0;
+
+    h1 {
+        display: flex;
+        justify-content: center;
+    }
 }
 
 .banner {
@@ -206,6 +211,11 @@ $text_color: black;
         color: $nav-link-hover-color;
     }
     
+}
+
+.game-iframe {
+    display: flex;
+    justify-content: center;
 }
 
 
