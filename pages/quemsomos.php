@@ -1,6 +1,11 @@
 <div class="container">
         <main class="main">
-
+          
+        <br>
+        <h1>
+            <i class="fa-solid fa-user">&nbsp;Nossa Equipe!</i>
+        </h1><br>
+        
             <div class="TwoCols">
                 <div class="col1">
                     <img src="images/felipe.jpg" class="col-image" title="Felipe" alt="Felipe">

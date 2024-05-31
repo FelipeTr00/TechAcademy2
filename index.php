@@ -85,7 +85,9 @@
                     </ul>
                 </div>
                 <div class="footer-col">
+                    <a href="index.php?page=contato">
                     <img src="images/icon2.png" class="footer-image">
+                    </a>
                 </div>
             </div>
             <br>

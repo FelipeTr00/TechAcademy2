@@ -57,15 +57,15 @@
                     
                     <img src="images/mvgaming.jpg" class="col-image" title="MV Gaming" alt="MV Gaming">
                     <br>
-                    <h2 class="title2">MV Gaming</h2>
+                    <h2 class="title2">Galactic Annihilation</h2>
                     <div class="desc">
                         <p>Ano 2024</p>
                         <p>Criador: Guilherme</p>
                         <br>
-                        <p>Jogo inovador e imersivo!<br>Venha para essa aventura com o super MV gaming! </p>
+                        <p>Jogo inovador e imersivo!<br>Venha para essa aventura com o super Galactic Annihilation! </p>
                         <br>
                     </div>
-                    <button onclick="location.href='index.php?page=mvgaming'"><i class="fa-solid fa-play"></i> &nbsp;Jogar Agora!</button>
+                    <button onclick="location.href='index.php?page=galactic'"><i class="fa-solid fa-play"></i> &nbsp;Jogar Agora!</button>
                     <br><br>
                 </div>
             </div>
