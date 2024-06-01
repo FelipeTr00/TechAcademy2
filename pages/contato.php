@@ -1,7 +1,8 @@
 <div class="container">
     <main class="main">
         <div>
-            <br>
+            
+            <br><h1><i class="fa-solid fa-envelope">&nbsp; Entre em contato:</i></h1>
             <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
 
                 <div class="container"> 
