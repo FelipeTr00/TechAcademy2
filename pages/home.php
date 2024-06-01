@@ -39,9 +39,9 @@
                 </div>
                 <div class="col2">
                     
-                    <img src="images/mvgaming.jpg" class="col-image" title="MV Gaming" alt="MV Gaming">
+                    <img src="images/mvgaming.jpg" class="col-image" title="Galactic Annihilation" alt="Galactic Annihilation">
                     <br>
-                    <h2 class="title2">MV Gaming</h2>
+                    <h2 class="title2">Galactic Annihilation</h2>
                     <button onclick="location.href='link_para_mais_informacoes'"><i class="fa-solid fa-play"></i> &nbsp; Jogar Agora!</button>
                     <br><br>
                 </div>

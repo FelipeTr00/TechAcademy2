@@ -60,7 +60,7 @@
                         <li><a href="index.php?page=flappy"> FlappyBurnes </a></li>
                         <li><a href="index.php?page=swamp"> SwampChallenge </a></li>
                         <li><a href="index.php?page=dangeon"> DangeonSurvival </a></li>
-                        <li><a href="index.php?page=mvgaming"> MV Gaming </a></li>
+                        <li><a href="index.php?page=galactic"> Galactic Annihilation </a></li>
                     </ul>
                 </div>
                 

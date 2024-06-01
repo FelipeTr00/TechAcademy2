@@ -107,6 +107,9 @@
     .banner .banner-image:hover {
       transform: scale(1.08); }
 
+.google-maps, .map-iframe {
+  border-radius: 8px; }
+
 .TwoCols {
   padding: 10px 0 10px 0; }
   .TwoCols p {
