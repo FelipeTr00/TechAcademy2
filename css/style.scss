@@ -100,6 +100,11 @@ $text_color: black;
         display: flex;
         justify-content: center;
     }
+    
+}
+
+h1 {
+    color: $nav-link-color;
 }
 
 
@@ -252,6 +257,109 @@ $text_color: black;
         }
     }
 }
+
+.form {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+    
+    .form-row {
+        margin-bottom: 20px;
+        display: flex;
+        flex-direction: column;
+    
+        .form-row-desc {
+            font-size: 22px;
+            margin-bottom: 1px;
+                label {
+                    font-weight: bold;
+                    color: $text_color;
+                }
+            }
+
+        .form-row-input {
+            input[type='text'],
+            input[type='email'],
+            textarea {
+                width: 100%;
+                padding: 10px;
+                border: 1px solid $background-color_1;
+                border-radius: 5px;
+                transition: border-color 0.3s;
+  
+            &:focus {
+                outline: none;
+                border-color: $nav-link-hover-color;
+            }
+        }
+  
+        textarea {
+            resize: vertical;
+            }
+        }
+    }
+  
+    button {
+        float: center;
+        padding: 10px 20px;
+        background-color: $nav-link-hover-color;
+        color: $header-color; 
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+        font-size: 16px;
+        transition: background-color 0.3s;
+      
+        &:hover {
+            background-color: darken($nav-link-hover-color, 15%);
+        }
+    }
+}
+
+.redes {
+    font-size: 30px;
+    list-style: none;
+    margin: 20px auto 0;
+    display: flex;
+    padding: 30px;
+    justify-content: center;
+    gap: 15px;
+
+    li {
+        margin: 20px;
+
+        a {
+            display: flex;
+            align-items: center;
+            color: $nav-link-color;
+            text-decoration: none;
+            font-size: 1.2em;
+            transition: color 0.3s;
+
+            i {
+                margin-left: 5px;
+                color: $menu-icon-color; // Ajuste conforme necessário
+            }
+
+            &:hover {
+                color: $nav-link-hover-color;
+
+                i {
+                    color: $nav-link-hover-color;
+                }
+            }
+        }
+    }
+}
+@media (max-width: 840px) {
+    .redes {
+        flex-direction: column;
+        align-items: center; 
+    }
+}
+
+
 
 /* Footer */
 footer {

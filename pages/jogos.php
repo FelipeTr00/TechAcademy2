@@ -11,8 +11,16 @@
                     <br>
                     <h2 class="title2">FlappyBurnes</h2>
                     <div class="desc">
-                        <p>Ano 2024</p>
-                        <p>Criador: Felipe</p>
+                        <p><strong>Ano: </strong> 2024</p>
+                        <p><strong>Criador:</strong> Felipe</p>
+                        <p><strong>Categoria:</strong> Aventura</p>
+                        <p><strong>Nota: </strong> &nbsp; 
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </p>
                         <br>
                         <p>Jogo imersivo e viciante!<br>Venha se divertir com o FlappyBurnes! </p>
                         <br>
@@ -26,8 +34,16 @@
                     <br>
                     <h2 class="title2">Swamp Challenge</h2>
                     <div class="desc">
-                        <p>Ano 2024</p>
-                        <p>Criador: Marcos</p>
+                        <p><strong>Ano</strong> 2024</p>
+                        <p><strong>Criador:</strong> Marcos</p>
+                        <p><strong>Categoria:</strong> Aventura, Luta</p>
+                        <p><strong>Nota: </strong> &nbsp; 
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </p>
                         <br>
                         <p>Jogo desafiador e emocionante!<br>Venha se desafiar com o Swamp Challenge! </p>
                         <br>
@@ -44,8 +60,16 @@
                     <br>
                     <h2 class="title2">Dangeon Survival</h2>
                     <div class="desc">
-                        <p>Ano 2024</p>
-                        <p>Criador: André</p>
+                        <p><strong>Ano</strong> 2024</p>
+                        <p><strong>Criador:</strong> André</p>
+                        <p><strong>Categoria:</strong> RPG</p>
+                        <p><strong>Nota: </strong> &nbsp; 
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </p>
                         <br>
                         <p>Jogo épico e divertido!<br>Venha  para essa aventura com o Dangeon Survival! </p>
                         <br>
@@ -59,8 +83,16 @@
                     <br>
                     <h2 class="title2">Galactic Annihilation</h2>
                     <div class="desc">
-                        <p>Ano 2024</p>
-                        <p>Criador: Guilherme</p>
+                        <p><strong>Ano</strong> 2024</p>
+                        <p><strong>Criador:</strong> Guilherme</p>
+                        <p><strong>Categoria:</strong> Aventura</p>
+                        <p><strong>Nota: </strong> &nbsp; 
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </p>
                         <br>
                         <p>Jogo inovador e imersivo!<br>Venha para essa aventura com o super Galactic Annihilation! </p>
                         <br>
