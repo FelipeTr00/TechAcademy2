@@ -29,8 +29,7 @@
         color: #222;
         text-decoration: none; }
         .header-nav ul a:hover {
-          color: #ca490d;
-          font-weight: bold; }
+          color: #ca490d; }
     @media (max-width: 840px) {
       .header-nav ul {
         display: none;
