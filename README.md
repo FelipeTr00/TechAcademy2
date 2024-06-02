@@ -4,7 +4,7 @@
 
 ---
 ## LINK
-https://felipetr00.github.io/TechAcademy2
+https://techacademy2.000webhostapp.com
 
 ---
 
