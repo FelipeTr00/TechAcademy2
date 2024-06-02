@@ -114,50 +114,56 @@
   padding: 10px 0 10px 0; }
   .TwoCols p {
     font-family: Verdana, Tahoma, sans-serif; }
-
-.col1, .col2 {
-  font-family: Arial, Helvetica, sans-serif;
-  display: inline-block;
-  justify-content: center;
-  width: calc(50% - 2px);
-  text-align: center;
-  padding: 5px 5px 5px 5px;
-  background-color: #FFF;
-  border-radius: 8px;
-  overflow: hidden;
-  box-shadow: 0 2px 4px #CCC;
-  transition: transform 0.3s ease;
-  margin-bottom: 20px; }
-  .col1:hover, .col2:hover {
-    transform: scale(1.05); }
-  .col1.col1, .col2.col1 {
-    float: left; }
-    .col1.col1 .desc, .col2.col1 .desc {
-      width: 60%;
-      margin: 0 auto;
-      text-align: justify; }
-  .col1.col2, .col2.col2 {
-    float: left; }
-    .col1.col2 .desc, .col2.col2 .desc {
-      width: 60%;
-      margin: 0 auto;
-      text-align: justify; }
-  .col1 .col-image, .col2 .col-image {
-    max-width: 100%;
-    max-height: 100%;
-    border-radius: 8px;
-    object-fit: cover; }
-  .col1 button, .col2 button {
+  .TwoCols .col1, .TwoCols .col2, .TwoCols .col3 {
     font-family: Arial, Helvetica, sans-serif;
-    padding: 10px 20px;
-    font-size: 16px;
-    background-color: #ca490d;
-    color: white;
-    border: none;
+    display: inline-block;
+    justify-content: center;
+    width: calc(50% - 2px);
+    text-align: center;
+    padding: 5px 5px 5px 5px;
+    background-color: #FFF;
     border-radius: 8px;
-    cursor: pointer; }
-    .col1 button:hover, .col2 button:hover {
-      background-color: #822f08; }
+    overflow: hidden;
+    box-shadow: 0 2px 4px #CCC;
+    transition: transform 0.3s ease;
+    margin-bottom: 20px; }
+    .TwoCols .col1:hover, .TwoCols .col2:hover, .TwoCols .col3:hover {
+      transform: scale(1.05); }
+    .TwoCols .col1.col1, .TwoCols .col2.col1, .TwoCols .col3.col1 {
+      float: left; }
+      .TwoCols .col1.col1 .desc, .TwoCols .col2.col1 .desc, .TwoCols .col3.col1 .desc {
+        width: 60%;
+        margin: 0 auto;
+        text-align: justify; }
+    .TwoCols .col1.col2, .TwoCols .col2.col2, .TwoCols .col3.col2 {
+      float: left; }
+      .TwoCols .col1.col2 .desc, .TwoCols .col2.col2 .desc, .TwoCols .col3.col2 .desc {
+        width: 60%;
+        margin: 0 auto;
+        text-align: justify; }
+    .TwoCols .col1.col3, .TwoCols .col2.col3, .TwoCols .col3.col3 {
+      float: left;
+      width: 100%; }
+      .TwoCols .col1.col3 .desc, .TwoCols .col2.col3 .desc, .TwoCols .col3.col3 .desc {
+        width: 60%;
+        margin: 0 auto;
+        text-align: justify; }
+    .TwoCols .col1 .col-image, .TwoCols .col2 .col-image, .TwoCols .col3 .col-image {
+      max-width: 100%;
+      max-height: 100%;
+      border-radius: 8px;
+      object-fit: cover; }
+    .TwoCols .col1 button, .TwoCols .col2 button, .TwoCols .col3 button {
+      font-family: Arial, Helvetica, sans-serif;
+      padding: 10px 20px;
+      font-size: 16px;
+      background-color: #ca490d;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer; }
+      .TwoCols .col1 button:hover, .TwoCols .col2 button:hover, .TwoCols .col3 button:hover {
+        background-color: #822f08; }
 
 .title2 {
   font-family: Arial, Helvetica, sans-serif;
