@@ -3,8 +3,11 @@
 ##### Maio/Junho de  2024
 
 ---
-## LINK
-https://techacademy2.000webhostapp.com
+
+<img src="images/logo.png" alt="Logo do Projeto" width="auto" height="150">
+
+---
+##### LINK: https://techacademy2.000webhostapp.com
 
 ---
 
