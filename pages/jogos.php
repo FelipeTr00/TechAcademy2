@@ -79,7 +79,7 @@
                 </div>
                 <div class="col2">
                     
-                    <img src="images/mvgaming.jpg" class="col-image" title="Galactic Annihilation" alt="Galactic Annihilation">
+                    <img src="images/galactic.jpg" class="col-image" title="Galactic Annihilation" alt="Galactic Annihilation">
                     <br>
                     <h2 class="title2">Galactic Annihilation</h2>
                     <div class="desc">

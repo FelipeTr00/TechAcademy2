@@ -34,9 +34,9 @@
                     <img src="images/guilherme.jpg" class="col-image" title="Guilherme" alt="Guilherme">
                     <br>
                     <h2 class="title2">Guilherme</h2>
-                    <button onclick="location.href='https://github.com/FelipeTr00'" title="GitHub: @Guilherme">
+                    <button onclick="location.href='https://github.com/guilhermefreitas450'" title="GitHub: @Guilherme">
                         <i class="fab fa-github"></i>
-                        &nbsp; @Guilherme
+                        &nbsp; @guilhermefreitas450
                     </button>
                     <br><br>
                 </div>
