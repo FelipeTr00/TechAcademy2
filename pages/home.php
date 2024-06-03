@@ -23,7 +23,7 @@
                     <img src="images/swampchallenge.jpg" class="col-image" title="Swamp Challenge" alt="Swamp Challenge">
                     <br>
                     <h2 class="title2">Swamp Challenge</h2>
-                    <button onclick="location.href='link_para_mais_informacoes'"><i class="fa-solid fa-play"></i> &nbsp; Jogar Agora!</button>
+                    <button onclick="location.href='index.php?page=swamp'"><i class="fa-solid fa-play"></i> &nbsp; Jogar Agora!</button>
                     <br><br>
                 </div>
             </div>
@@ -34,7 +34,7 @@
                     <img src="images/dangeonsurvival.jpg" class="col-image" title="Dangeon Survival" alt="Dangeon Survival">
                     <br>
                     <h2 class="title2">Dangeon Survival</h2>
-                    <button onclick="location.href='link_para_mais_informacoes'"><i class="fa-solid fa-play"></i> &nbsp; Jogar Agora!</button>
+                    <button onclick="location.href='index.php?page=dangeon'"><i class="fa-solid fa-play"></i> &nbsp; Jogar Agora!</button>
                     <br><br>
                 </div>
                 <div class="col2">
@@ -42,7 +42,7 @@
                     <img src="images/galactic.jpg" class="col-image" title="Galactic Annihilation" alt="Galactic Annihilation">
                     <br>
                     <h2 class="title2">Galactic Annihilation</h2>
-                    <button onclick="location.href='link_para_mais_informacoes'"><i class="fa-solid fa-play"></i> &nbsp; Jogar Agora!</button>
+                    <button onclick="location.href='index.php?page=galactic'"><i class="fa-solid fa-play"></i> &nbsp; Jogar Agora!</button>
                     <br><br>
                 </div>
                 
