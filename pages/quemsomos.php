@@ -1,7 +1,6 @@
 <div class="container">
         <main class="main">
           
-        <br>
         <h1>
             <i class="fa-solid fa-user">&nbsp;Nossa Equipe!</i>
         </h1><br>

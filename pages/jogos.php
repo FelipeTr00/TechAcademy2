@@ -1,7 +1,6 @@
 <div class="container">
         <main class="main">
 
-            <br>
             
             <h1><i class="fa-solid fa-gamepad">&nbsp; Venha se divertir!</i></h1>
             <br>
