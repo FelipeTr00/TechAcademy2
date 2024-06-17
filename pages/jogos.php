@@ -35,7 +35,7 @@
                     <div class="desc">
                         <p><strong>Ano</strong> 2024</p>
                         <p><strong>Criador:</strong> Marcos</p>
-                        <p><strong>Categoria:</strong> Aventura, Luta</p>
+                        <p><strong>Categoria:</strong> Aventura</p>
                         <p><strong>Nota: </strong> &nbsp; 
                             <i class="fa-solid fa-star"></i>
                             <i class="fa-solid fa-star"></i>
@@ -44,7 +44,7 @@
                             <i class="fa-solid fa-star-half-stroke"></i>
                         </p>
                         <br>
-                        <p>Jogo desafiador e emocionante!<br>Venha se desafiar com o Swamp Challenge! </p>
+                        <p>Jogo desafiador!<br>Venha conhecer o Swamp Challenge! </p>
                         <br>
                     </div>
                     <button onclick="location.href='swamp'"><i class="fa-solid fa-play"></i> &nbsp;Jogar Agora!</button>
@@ -70,7 +70,7 @@
                             <i class="fa-solid fa-star-half-stroke"></i>
                         </p>
                         <br>
-                        <p>Jogo épico e divertido!<br>Venha  para essa aventura com o Dangeon Survival! </p>
+                        <p>Jogo épico e divertido!<br>Venha para o super Dangeon Survival! </p>
                         <br>
                     </div>
                     <button onclick="location.href='dangeon'"><i class="fa-solid fa-play"></i> &nbsp;Jogar Agora!</button>
@@ -93,7 +93,7 @@
                             <i class="fa-solid fa-star-half-stroke"></i>
                         </p>
                         <br>
-                        <p>Jogo inovador e imersivo!<br>Venha para essa aventura com o super Galactic Annihilation! </p>
+                        <p>Jogo imersivo!<br>Jogue agora Galactic Annihilation! </p>
                         <br>
                     </div>
                     <button onclick="location.href='galactic'"><i class="fa-solid fa-play"></i> &nbsp;Jogar Agora!</button>

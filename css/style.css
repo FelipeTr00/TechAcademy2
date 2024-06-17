@@ -4,11 +4,12 @@
   margin: 0;
   box-sizing: border-box;
   font-family: "Karla", sans-serif, Helvetica, sans-serif;
+  text-decoration: none;
 }
 
 .header {
   width: 100%;
-  min-height: 10px;
+  min-height: 70px;
   font-size: 30px;
   font-family: "Karla", sans-serif, Helvetica, sans-serif;
   color: white;
@@ -23,29 +24,31 @@
 .header-nav {
   float: right;
 }
-.header-nav ul {
+.header-nav .ul {
   list-style: none;
+  height: 30px;
 }
-.header-nav ul li {
+.header-nav .ul .li {
   display: inline-block;
   margin: 10px;
 }
-.header-nav ul a {
+.header-nav .ul a {
   color: #222;
   text-decoration: none;
   font-weight: bold;
 }
-.header-nav ul a:hover {
+.header-nav .ul a:hover {
   color: #ca490d;
 }
 @media (max-width: 840px) {
-  .header-nav ul {
+  .header-nav .ul {
     display: none;
     flex-direction: column;
     width: 100%;
+    height: 240px;
     padding-top: 50px;
   }
-  .header-nav ul li {
+  .header-nav .ul .li {
     display: block;
     text-align: right;
     margin: 5px 0;
@@ -95,6 +98,11 @@
 
 h1 {
   color: #222;
+}
+
+.carousel-inner {
+  border-radius: 5px;
+  margin-top: 100px;
 }
 
 .banner {

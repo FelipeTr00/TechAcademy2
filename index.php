@@ -7,6 +7,8 @@
     <title>ORANGE GAMES</title>
     
     <link rel="stylesheet" href="css/style.css">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+   
     <link rel="icon" href="images/icon.png">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -17,17 +19,17 @@
 </head>
 <body>
 
-    <header class="header">
+    <header class="header" style="min-height: 80px;">
         <a href="home">
             <img src="images/logo.png" title="Orange Games" alt="Orange Games" class="header-logo">
         </a>
         <i class="fa-solid fa-bars menu-icon"></i>
         <nav class="header-nav">
-            <ul>
-                <li><a href="home" title="Home">Home</a></li>
-                <li><a href="jogos" title="Jogos">Jogos</a></li>
-                <li><a href="quemsomos" title="Quem Somos">Quem Somos</a></li>
-                <li><a href="contato" title="Contato">Contato</a></li>
+            <ul class="ul">
+                <li class="li"><a href="home" title="Home">Home</a></li>
+                <li class="li"><a href="jogos" title="Jogos">Jogos</a></li>
+                <li class="li"><a href="quemsomos" title="Quem Somos">Quem Somos</a></li>
+                <li class="li"><a href="contato" title="Contato">Contato</a></li>
             </ul>
         </nav>   
     </header>
