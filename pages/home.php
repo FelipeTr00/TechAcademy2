@@ -10,7 +10,7 @@
                     </a>
                 </div>
                 <div class="carousel-item">
-                    <a href="jogos" class="banner-link">
+                    <a href="blood" class="banner-link">
                         <img src="images/banner2.PNG" class="d-block w-100" title="Banner 2" alt="Banner 2">
                     </a>
                 </div>
