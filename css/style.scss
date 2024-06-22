@@ -38,6 +38,7 @@ $my-font: "Karla", sans-serif;
         .ul {
             list-style: none;
             height: 30px;
+            
             .li {
                 display: inline-block;
                 margin: 10px;
@@ -155,7 +156,14 @@ margin-top: 100px;
 }
 
 
-.google-maps, .map-iframe {
+.google-maps {
+    display: block;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.map-iframe {
     border-radius: 8px;
 }
 

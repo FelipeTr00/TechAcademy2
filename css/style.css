@@ -141,7 +141,13 @@ h1 {
   transform: scale(1.08);
 }
 
-.google-maps, .map-iframe {
+.google-maps {
+  display: block;
+  align-items: center;
+  justify-content: center;
+}
+
+.map-iframe {
   border-radius: 8px;
 }
 

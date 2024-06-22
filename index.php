@@ -108,7 +108,7 @@
             <br>
             <br>
 
-            <hr> <!-- Linha horizontal -->
+            <hr style="color: white; border: 0.5px solid white;">
             <p class="copyright">Orange Games © 2024 F. Morais. Todos os direitos reservados.</p>
         </div>
     </footer>
